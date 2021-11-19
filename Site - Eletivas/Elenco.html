@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo.css"/>
+    <script type="text/javascript" src="JavaScript.js"></script>
+    
+    <title>Document</title>
+</head>
+    
+<body bgcolor="gray">
+
+    <h1 class="content"> ELENCO </h1>
+
+    <button class="content_ElencoE" type="button" onclick="Principal()">PRINCIPAL</button>   
+    <button class="content_Selecionada" type="button" onclick="Elenco()">ELENCO</button>       
+    <button class="content_ElencoE" type="button" onclick="Historia()">HISTÓRIA</button>   
+    <button class="content_ElencoE" type="button" onclick="Curiosidades()">CURIOSIDADES</button>
+
+    <script>
+        function Principal()
+        {
+            window.location="./index.html"
+        }
+    </script>
+
+    <script>
+        function Historia()
+        {
+            window.location="./Historia.html"
+        }
+    </script>
+
+    <script>
+        function Curiosidades()
+        {
+            window.location="./Curiosidade.html"
+        }
+    </script>
+
+    <hr>
+
+    <h2>
+        <table class="content_ImagensTabela" border="2">
+            <tr>
+                <td> <p> <img class= "content_Imagens" src=".\imgs\DiCaprio.jfif" onmouseenter="zoom(this)" onmouseleave="unzoom(this)">  </p> <p> <h5 class="content_PalavrasElenco">Leonardo DiCaprio</h5> </p> <p><h5 class="content_PalavrasElencoPersonagem">Personagem: Jack Dawson</h5> </p> </td>
+                <td> <p> <img class= "content_Imagens" src=".\imgs\Kate-Winslet.jfif" onmouseenter="zoom(this)" onmouseleave="unzoom(this)"> </p> <p> <h5 class="content_PalavrasElenco">Kate Winslet</h5> </p> <p><h5 class="content_PalavrasElencoPersonagem">Personagem: Rose DeWitt Bukater</h5> </p> </td>
+                <td> <p> <img class= "content_Imagens" src=".\imgs\AnyConv.png" onmouseenter="zoom(this)" onmouseleave="unzoom(this)"> </p> <p> <h5 class="content_PalavrasElenco">Bill Paxton</h5> </p> <p><h5 class="content_PalavrasElencoPersonagem">Personagem: Brock Lovett</h5> </p> </td>
+                <td> <p> <img class= "content_Imagens" src=".\imgs\Bernand-Hill.jfif" onmouseenter="zoom(this)" onmouseleave="unzoom(this)"> </p> <p> <h5 class="content_PalavrasElenco">Bernand Hill</h/5> </p> <p><h5 class="content_PalavrasElencoPersonagem">Personagem: Edward J. Smith</h5> </p> </td>
+            </tr>
+        </table>
+         
+        <table class="content_ImagensTabela" border="2">
+            <tr>
+                <td> <p> <img class= "content_Imagens" src=".\imgs\Frances-Fisher.jfif" onmouseenter="zoom(this)" onmouseleave="unzoom(this)"> </p> <p> <h5 class="content_PalavrasElenco">Frances Fisher</h5> </p> <p><h5 class="content_PalavrasElencoPersonagem">Personagem: Ruth DeWitt Bukater</h5> </p> </td>
+                <td> <p> <img class= "content_Imagens" src=".\imgs\Billy-Zane.jfif" onmouseenter="zoom(this)" onmouseleave="unzoom(this)"> </p> <p> <h5 class="content_PalavrasElenco">Billy Zane</h5> </p> <p><h5 class="content_PalavrasElencoPersonagem">Personagem: Cal Hockley</h5> </p> </td>
+                <td> <p> <img class= "content_Imagens" src=".\imgs\Kathy-Bates.jfif" onmouseenter="zoom(this)" onmouseleave="unzoom(this)"> </p> <p> <h5 class="content_PalavrasElenco">Kathy Bater</h5> </p> <p><h5 class="content_PalavrasElencoPersonagem">Personagem: Molly Brown </h5> </p> </td>
+                <td> <p> <img class= "content_Imagens" src=".\imgs\image-w856.jpg" onmouseenter="zoom(this)" onmouseleave="unzoom(this)"> </p> <p> <h5 class="content_PalavrasElenco">Gloria Stuart</h/5> </p> <p><h5 class="content_PalavrasElencoPersonagem">Personagem: Elderly Rose</h5> </p> </td>
+            </tr>
+        </table>
+    </h2>
+    
+     
+    <img id="FW" src="imgs/FV.jpg">
+
+</body>
+</html>
