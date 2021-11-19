@@ -1,0 +1,122 @@
+
+
+#FW
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+}
+
+h1, p 
+{
+    text-align: center;
+}
+
+
+
+h3, p 
+{
+    text-align: center;
+    
+}
+
+h5, p 
+{
+    text-align: center;
+    
+}
+
+h9, p
+{
+    text-align: center;
+    
+}
+
+.content
+{
+    top: 0;
+    background:  rgba(0, 0, 0, 0.5);
+    color: black;
+    width: 100%;
+    padding-top: 19.9px;
+    padding-bottom: 19.9px;
+}
+
+
+
+.content_Elenco
+{
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(148, 148, 148) ;
+    width: 24%;
+    padding-top: 19.9px;
+    padding-bottom: 19.9px;
+
+}
+
+.content_ElencoE
+{
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(148, 148, 148) ;
+    width: 25%;
+    padding-top: 19.9px;
+    padding-bottom: 19.9px;
+
+}
+
+.content_Selecionada
+{
+    top: 0;
+    background: rgba(217, 165, 32, 0.5);
+    color: black(148, 148, 148) ;
+    width: 24%;
+    padding-top: 19.9px;
+    padding-bottom: 19.9px;
+
+}
+
+.content_Imagens    
+{
+    top: 0;
+    width: 50%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+.content_Tabela  
+{
+    top: 0 ;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+.content_ImagensTabela 
+{
+    top: 0;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+.content_ImagensTumb
+{
+    top: 0;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+
+
+
+
