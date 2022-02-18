@@ -1,2 +1,2 @@
-# RMStoo2007.github.io - Eletivas
+# RMStoo2007.github.io
 
